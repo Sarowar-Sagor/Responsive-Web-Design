@@ -1,0 +1,73 @@
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/05/36/77/12/360_F_536771228_H50Cn9gONUlMNmy7L59EyZ2zfrQZjX6X.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: white;    
+  }
+  form {
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 80vw;
+    background-color: #1b1b32;
+  }
+  label {
+    display: block;
+  }
+  fieldset {
+    border: none;
+    padding: 5px 0;
+  }
+  h1, p {
+    text-align: center;
+    color: black;
+  }
+  h1 {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    min-height: 3em;
+    border-radius: 8px;
+  }
+  
+  .inline {
+    display: inline;
+    width: 20px;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  input, textarea {
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color:green;
+    border: green;
+    height: 3em;
+    color: white;
+  }
+  
+  legend {
+    margin-top: 10px;
+    margin-bottom:  -5px;
+  }
+  select {
+    margin-top: 3px;
+    margin-bottom: 20px;
+  }
